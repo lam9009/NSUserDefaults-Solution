@@ -14,6 +14,8 @@
 		DF231A111A9A548E00686314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF231A101A9A548E00686314 /* Images.xcassets */; };
 		DF231A141A9A548E00686314 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF231A121A9A548E00686314 /* LaunchScreen.xib */; };
 		DF231A201A9A548E00686314 /* NSUserDefaults_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF231A1F1A9A548E00686314 /* NSUserDefaults_SolutionTests.m */; };
+		DF231A2B1A9A551300686314 /* SignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF231A2A1A9A551300686314 /* SignInVC.m */; };
+		DF231A2E1A9A553500686314 /* CreateAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF231A2D1A9A553500686314 /* CreateAccountVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		DF231A191A9A548E00686314 /* NSUserDefaults-SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults-SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF231A1E1A9A548E00686314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF231A1F1A9A548E00686314 /* NSUserDefaults_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults_SolutionTests.m; sourceTree = "<group>"; };
+		DF231A291A9A551300686314 /* SignInVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInVC.h; sourceTree = "<group>"; };
+		DF231A2A1A9A551300686314 /* SignInVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInVC.m; sourceTree = "<group>"; };
+		DF231A2C1A9A553500686314 /* CreateAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountVC.h; sourceTree = "<group>"; };
+		DF231A2D1A9A553500686314 /* CreateAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				DF231A0A1A9A548E00686314 /* ViewController.h */,
 				DF231A0B1A9A548E00686314 /* ViewController.m */,
 				DF231A0D1A9A548E00686314 /* Main.storyboard */,
+				DF231A291A9A551300686314 /* SignInVC.h */,
+				DF231A2A1A9A551300686314 /* SignInVC.m */,
+				DF231A2C1A9A553500686314 /* CreateAccountVC.h */,
+				DF231A2D1A9A553500686314 /* CreateAccountVC.m */,
 				DF231A101A9A548E00686314 /* Images.xcassets */,
 				DF231A121A9A548E00686314 /* LaunchScreen.xib */,
 				DF231A031A9A548E00686314 /* Supporting Files */,
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF231A0C1A9A548E00686314 /* ViewController.m in Sources */,
+				DF231A2E1A9A553500686314 /* CreateAccountVC.m in Sources */,
 				DF231A091A9A548E00686314 /* AppDelegate.m in Sources */,
+				DF231A2B1A9A551300686314 /* SignInVC.m in Sources */,
 				DF231A061A9A548E00686314 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
